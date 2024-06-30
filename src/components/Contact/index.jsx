@@ -5,7 +5,7 @@ const Contact = forwardRef(({id}, ref) => {
     <div className="w-full shadow-sm">
       <div ref={ref} id={id} className="CONTAINER max-w-5xl mx-auto h-fit px-5 t:px-10 d:px-12 py-20 flex flex-col gap-4 text-center t:text-start">
         <p className="text-xl font-extrabold text-blue">CONTACT</p>
-        <p className="text-2xl font-extrabold">Don't be shy! Hit me up! 👇</p>
+        <p className="text-2xl font-extrabold">What can I do for you!?</p>
         <div className="w-full pt-10 flex flex-col t:flex-row items-center gap-16">
           <div className="w-fit flex flex-col t:flex-row items-center gap-4">
             <div className="w-fit h-fit p-3 bg-gry rounded-full shadow-shdw-lg border text-blue">
