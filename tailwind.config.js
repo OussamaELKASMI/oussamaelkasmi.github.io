@@ -21,7 +21,7 @@ module.exports = {
         current: 'currentColor',
         gry: '#f9f9f9',
         'lght-wht': '#EAEBEB',
-        'lght-blk': '#222831',
+        'lght-blk': '#2D2E32',
         blue: '#147efb',
       },
       boxShadow: {

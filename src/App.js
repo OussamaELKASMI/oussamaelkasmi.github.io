@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import About from './components/About';
+import Services from './components/Services';
 import Header from './components/Header';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -18,12 +19,10 @@ function App() {
 
   return (
     <div className="App overflow-hidden">
-      <Navbar
-        scrollToSection={scrollToSection}
-        sections={{ header, about, projetcs, contact }}
-      />
+      <Navbar scrollToSection={scrollToSection} sections={{ header, about, projetcs, contact }} />
       <Header ref={header} id="header" />
       <About ref={about} id="about" />
+      <Services />
       <Projects ref={projetcs} id="projetcs" />
       <Contact ref={contact} id="contact" />
       <Footer ref={contact} id="contact" />

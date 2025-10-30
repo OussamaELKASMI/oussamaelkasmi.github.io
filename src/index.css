@@ -11,14 +11,14 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #C0C0C0;
+  background-color: #c0c0c0;
   border-radius: 5px;
   border: 3px solid transparent;
   background-clip: content-box;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background-color: #A0A0A0;
+  background-color: #a0a0a0;
 }
 
 *::-webkit-scrollbar-button {
@@ -43,18 +43,18 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  font-family: "Nunito", sans-serif;
+* {
+  font-family: 'Nunito', sans-serif;
   color: #2d2e32;
 }
 
 @media only screen and (min-width: 1000px) {
   .animate-image {
-    transition: transform 1s ease-in-out;
+    transition: transform 3s ease-in-out;
   }
 
   .animate-image:hover {
-    transform: translateY(-50%)
+    transform: translateY(-85%);
   }
 
   .animate-vert {
@@ -62,10 +62,10 @@
   }
 
   .animate-vert:hover {
-    transform: translateX(-5.6%)
+    transform: translateX(-5.6%);
   }
 
-  .animate-vert:hover~.animate-sibling {
+  .animate-vert:hover ~ .animate-sibling {
     transform: translateX(-36%);
     transition: transform 1s ease-in-out;
   }
@@ -74,4 +74,3 @@
     transition: transform 1s ease-in-out;
   }
 }
-
