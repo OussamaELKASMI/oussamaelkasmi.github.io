@@ -38,7 +38,7 @@ const index = () => {
               key={index}
               className="p-6 bg-lght-blk rounded-md cursor-default shadow-xl transition duration-300 hover:shadow-2xl hover:scale-[1.02]"
             >
-              <div className="text-4xl mb-4">{service.icon}</div>
+              <div className="w-fit text-4xl mb-4 mx-auto md:mx-0">{service.icon}</div>
               <h3 className="text-2xl font-semibold text-white mb-3">{service.title}</h3>
               <p className="text-gry">{service.description}</p>
             </div>
