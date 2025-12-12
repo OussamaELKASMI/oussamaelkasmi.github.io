@@ -1,13 +1,12 @@
 import React, { forwardRef } from 'react';
-import Lottie from 'lottie-react';
-import animationData from '../../animations/p_a_gcompr.mp4.lottie.json';
+import PersonalImage from './PersonalImage';
 
 const Header = forwardRef(({ scrollToSection, sections, id }, ref) => {
   return (
     <div
       ref={ref}
       id={id}
-      className="w-full h-fit d:h-screen bg-gry shadow-sm py-16 flex justify-center"
+      className="w-full h-fit ld:h-screen bg-gry shadow-sm py-8 flex justify-center"
     >
       <div className="max-w-5xl h-fit mx-auto px-5 t:px-10 d:px-12 pt-10 t:pt-12 d:py-20 flex flex-col items-center gap-16 d:gap-24">
         <div className="Header-main w-full h-fit flex flex-col-reverse d:flex-row items-center justify-center gap-8">
@@ -24,7 +23,7 @@ const Header = forwardRef(({ scrollToSection, sections, id }, ref) => {
             </div>
             <p className="text-xl">
               Hi, I'm Oussama EL Kasmi. A passionate Full-Stack Web Developer based in Morocco,
-              Oujda. 📍
+              Rabat. 📍
             </p>
             <div className="socials w-full h-fit flex gap-4 items-center justify-center d:justify-start">
               <a href="https://www.linkedin.com/in/el-kasmi-oussama-1437071b3">
@@ -66,24 +65,30 @@ const Header = forwardRef(({ scrollToSection, sections, id }, ref) => {
             </div>
           </div>
           <div className="Image self-start w-[20rem] t:w-[25rem] d:w-[35rem] mx-auto">
-            <Lottie animationData={animationData} loop={true} autoplay={true} preload="true" />
+            <PersonalImage />
           </div>
         </div>
-        <div className="Skills w-full h-fit flex flex-col d:flex-row items-center gap-10">
-          <p className="w-fit d:pr-4 pb-2 d:pb-0 border-b d:border-b-0 d:border-r border-lght-blk font-normal">
+        <div className="Skills w-full h-fit flex flex-col d:flex-row items-center gap-6">
+          <p className="w-fit d:pr-4 pb-2 d:pb-0 border-b d:border-b-0 d:border-r border-lght-blk font-normal whitespace-nowrap">
             <span className="font-extrabold">Tech Stack</span>
           </p>
-          <div className="list flex flex-wrap justify-center t:justify-start gap-10 items-center d:pl-12">
-            <li className="hover:translate-y-[-20%] transition-all ease-in-out duration-500 list-none cursor-pointer w-fit">
+          <div className="flex flex-1 flex-wrap justify-center d:justify-between gap-6 d:gap-0 items-center">
+            <li className="w-fit hover:translate-y-[-20%] transition-all ease-in-out duration-500 list-none cursor-pointer">
               <img src="https://skillicons.dev/icons?i=html,css" alt="skill-icon" />
             </li>
-            <li className="hover:translate-y-[-20%] transition-all ease-in-out duration-500 list-none cursor-pointer w-fit">
+            <li className="w-fit hover:translate-y-[-20%] transition-all ease-in-out duration-500 list-none cursor-pointer">
               <img src="https://skillicons.dev/icons?i=js,ts" alt="skill-icon" />
             </li>
-            <li className="hover:translate-y-[-20%] transition-all ease-in-out duration-500 list-none cursor-pointer w-fit">
+            <li className="w-fit hover:translate-y-[-20%] transition-all ease-in-out duration-500 list-none cursor-pointer">
               <img src="https://skillicons.dev/icons?i=react,next" alt="skill-icon" />
             </li>
-            <li className="hover:translate-y-[-20%] transition-all ease-in-out duration-500 list-none cursor-pointer w-fit">
+            <li className="w-fit hover:translate-y-[-20%] transition-all ease-in-out duration-500 list-none cursor-pointer">
+              <img src="https://skillicons.dev/icons?i=php,wordpress" alt="skill-icon" />
+            </li>
+            <li className="w-fit hover:translate-y-[-20%] transition-all ease-in-out duration-500 list-none cursor-pointer">
+              <img src="https://skillicons.dev/icons?i=git,github" alt="skill-icon" />
+            </li>
+            <li className="w-fit hover:translate-y-[-20%] transition-all ease-in-out duration-500 list-none cursor-pointer">
               <img src="https://skillicons.dev/icons?i=tailwind,scss" alt="skill-icon" />
             </li>
           </div>
