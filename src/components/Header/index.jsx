@@ -2,19 +2,14 @@ import React, { forwardRef } from 'react';
 import PersonalImage from './PersonalImage';
 
 const Header = forwardRef(({ scrollToSection, sections, id }, ref) => {
-  console.log("remove this one")
+  console.log('Header rendered')
   return (
     <div
       ref={ref}
       id={id}
       className="w-full h-fit ld:h-screen bg-gry shadow-sm py-8 flex justify-center"
     >    
-    
-      <div className="max-w-5xl h-fit mx-auto px-5 t:px-10 d:px-12 pt-10 t:pt-12 d:py-20 flex flex-col items-center gap-16 d:gap-24">
-        <p>Remove this p</p>
-        <span>Remove this too</span>
-        <div></div>
-   
+      <div className="max-w-5xl h-fit mx-auto px-5 t:px-10 d:px-12 pt-10 t:pt-12 d:py-20 flex flex-col items-center gap-16 d:gap-24">    
         <div className="Header-main w-full h-fit flex flex-col-reverse d:flex-row items-center justify-center gap-8">
           <div className="Header-text max-w-[30rem] d:max-w-[50rem] flex flex-col gap-8 items-center d:pt-8 text-center d:text-start">
             <div className="w-fit h-fit relative">
@@ -105,12 +100,7 @@ const Header = forwardRef(({ scrollToSection, sections, id }, ref) => {
             </li>
           </div>
         </div>
-        <p>this is a paragraph</p>
-      <span>This is a span</span>
- 
-      <p>Human added</p>
-      <p>this is ai</p>
- 
+       
       </div>
     </div>
   );
