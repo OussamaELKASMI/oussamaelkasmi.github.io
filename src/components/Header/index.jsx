@@ -105,6 +105,7 @@ const Header = forwardRef(({ scrollToSection, sections, id }, ref) => {
             </li>
           </div>
         </div>
+        <p>this is a paragraph</p>
       </div>
     </div>
   );
