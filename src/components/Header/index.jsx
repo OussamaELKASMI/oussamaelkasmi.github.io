@@ -2,7 +2,6 @@ import React, { forwardRef } from 'react';
 import PersonalImage from './PersonalImage';
 
 const Header = forwardRef(({ scrollToSection, sections, id }, ref) => {
-  console.log('Header rendered')
   return (
     <div
       ref={ref}
