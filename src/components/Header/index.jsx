@@ -12,6 +12,9 @@ const Header = forwardRef(({ scrollToSection, sections, id }, ref) => {
     
       <div className="max-w-5xl h-fit mx-auto px-5 t:px-10 d:px-12 pt-10 t:pt-12 d:py-20 flex flex-col items-center gap-16 d:gap-24">
         <p>Remove this p</p>
+        <span>Remove this too</span>
+        <div></div>
+   
         <div className="Header-main w-full h-fit flex flex-col-reverse d:flex-row items-center justify-center gap-8">
           <div className="Header-text max-w-[30rem] d:max-w-[50rem] flex flex-col gap-8 items-center d:pt-8 text-center d:text-start">
             <div className="w-fit h-fit relative">
