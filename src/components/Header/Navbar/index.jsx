@@ -1,4 +1,4 @@
-import React, {  useState } from 'react';
+import React, { useState } from 'react';
 
 const Navbar = ({ scrollToSection, sections }) => {
   const [showLinks, setShowLinks] = useState(false)

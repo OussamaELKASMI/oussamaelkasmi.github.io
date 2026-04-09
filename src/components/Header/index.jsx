@@ -2,6 +2,7 @@ import React, { forwardRef } from 'react';
 import PersonalImage from './PersonalImage';
 
 const Header = forwardRef(({ scrollToSection, sections, id }, ref) => {
+  console.log("remove this one")
   return (
     <div
       ref={ref}
