@@ -7,7 +7,8 @@ const Header = forwardRef(({ scrollToSection, sections, id }, ref) => {
       ref={ref}
       id={id}
       className="w-full h-fit ld:h-screen bg-gry shadow-sm py-8 flex justify-center"
-    >
+    >    
+    
       <div className="max-w-5xl h-fit mx-auto px-5 t:px-10 d:px-12 pt-10 t:pt-12 d:py-20 flex flex-col items-center gap-16 d:gap-24">
         <div className="Header-main w-full h-fit flex flex-col-reverse d:flex-row items-center justify-center gap-8">
           <div className="Header-text max-w-[30rem] d:max-w-[50rem] flex flex-col gap-8 items-center d:pt-8 text-center d:text-start">
@@ -20,11 +21,17 @@ const Header = forwardRef(({ scrollToSection, sections, id }, ref) => {
                 alt="."
                 className="w-12 t:w-16 absolute left-[50%] translate-x-[-50%] t:translate-x-0 t:left-[80%] d:left-[60%] bottom-[-10%] t:bottom-0"
               />
+              
             </div>
             <p className="text-xl">
               Hi, I'm Oussama EL Kasmi. A passionate Full-Stack Web Developer based in Morocco,
               Rabat. 📍
             </p>
+            <div>
+              <p>This is a paragraph inside the div.</p>
+              <span>san</span>
+            </div>
+            
             <div className="socials w-full h-fit flex gap-4 items-center justify-center d:justify-start">
               <a href="https://www.linkedin.com/in/el-kasmi-oussama-1437071b3">
                 <svg
@@ -64,7 +71,7 @@ const Header = forwardRef(({ scrollToSection, sections, id }, ref) => {
               </a>
             </div>
           </div>
-          <div className="Image self-start w-[20rem] t:w-[25rem] d:w-[35rem] mx-auto">
+          <div className="Image self-start min-w-fit w-[20rem] t:w-[25rem] d:w-[35rem] mx-auto">
             <PersonalImage />
           </div>
         </div>

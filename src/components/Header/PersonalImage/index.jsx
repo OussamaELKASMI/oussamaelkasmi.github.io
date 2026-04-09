@@ -77,7 +77,7 @@ export default function PersonalImage({ imageSrc = '/assets/img_0.webp', size = 
   return (
     <svg
       viewBox="0 0 260 260"
-      style={{ width: size, height: 'auto', display: 'block' }}
+      style={{ width: size, height: 'auto', display: 'block', margin: '0 auto' }}
       aria-label="Floating ribbon ring"
     >
       <defs>

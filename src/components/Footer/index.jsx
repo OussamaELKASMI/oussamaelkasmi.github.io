@@ -14,6 +14,7 @@ const Footer = forwardRef(({id}, ref) => {
           </a>
         </div>
       </div>
+      
     </div>
 
   )

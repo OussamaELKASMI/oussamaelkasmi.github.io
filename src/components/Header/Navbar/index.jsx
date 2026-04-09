@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, {  useState } from 'react';
 
 const Navbar = ({ scrollToSection, sections }) => {
   const [showLinks, setShowLinks] = useState(false)
+  
 
   return <div className='w-full fixed top-0 z-50 h-fit py-6 px-5 t:px-10 d:px-12 shadow-shdw font-black text-xl bg-white flex items-center justify-between overflow-hidden'>
     <p className="LOGO cursor-pointer" onClick={() => scrollToSection(sections.header)}>Oussama.dev</p>
@@ -14,6 +15,7 @@ const Navbar = ({ scrollToSection, sections }) => {
       <p className='hover:text-blue cursor-pointer transition-all duration-400' onClick={() => {scrollToSection(sections.projetcs); setShowLinks(false)}}>Projects</p>
       <p className='hover:text-blue cursor-pointer transition-all duration-400' onClick={() => {scrollToSection(sections.contact); setShowLinks(false)}}>Contact</p>
     </div>
+    
     <div className="Burger d:hidden" onClick={() => setShowLinks(true)}>
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mobile-menu"><path d="M4 6l16 0"></path><path d="M4 12l16 0"></path><path d="M4 18l16 0"></path></svg>
     </div>
