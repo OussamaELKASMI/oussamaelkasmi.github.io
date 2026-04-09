@@ -108,7 +108,9 @@ const Header = forwardRef(({ scrollToSection, sections, id }, ref) => {
         <p>this is a paragraph</p>
       <span>This is a span</span>
  
-
+      <p>Human added</p>
+      <p>this is ai</p>
+ 
       </div>
     </div>
   );
