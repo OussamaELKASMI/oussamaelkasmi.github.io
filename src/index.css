@@ -53,8 +53,8 @@
     transition: transform 3s ease-in-out;
   }
 
-  .animate-image:hover {
-    transform: translateY(-82%);
+  .project-image:hover .animate-image {
+    transform: translateY(calc(-100% + 20rem));
   }
 
   .animate-vert {

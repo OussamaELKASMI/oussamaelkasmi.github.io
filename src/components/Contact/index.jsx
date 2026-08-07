@@ -34,7 +34,7 @@ const Contact = forwardRef(({ id }, ref) => {
             </div>
             <div className="w-fit">
               <p className="text-lg font-bold">Location</p>
-              <p className="text-lg text-lght-blk">Oujda, Morocco</p>
+              <p className="text-lg text-lght-blk">Qinhuangdao, China</p>
             </div>
           </div>
           <div className="w-fit flex flex-col t:flex-row items-center gap-4">
