@@ -85,7 +85,7 @@ const Projects = forwardRef(({ id }, ref) => {
               <img
                 src="./projects/projecttwo.png"
                 alt="LilPrinties e-commerce administration dashboard"
-                className="w-full h-full object-cover object-left d:object-none"
+                className="w-full h-full object-cover object-left d:object-fill"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-black/70 d:hidden pointer-events-none" />
@@ -186,7 +186,7 @@ const Projects = forwardRef(({ id }, ref) => {
               <img
                 src={`/projects/projectfour/${projectFourImage + 1}.png`}
                 alt={`AI CodeLens dashboard screenshot ${projectFourImage + 1} of 5`}
-                className="block h-full w-full object-cover object-left d:object-none"
+                className="block h-full w-full object-cover object-left d:object-fill"
                 loading="lazy"
               />
               <div className="absolute bottom-2 left-1/2 z-20 flex -translate-x-1/2 items-center gap-1">
