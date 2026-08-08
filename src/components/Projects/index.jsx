@@ -190,7 +190,7 @@ const Projects = forwardRef(({ id }, ref) => {
                 loading="lazy"
               />
               <div className="absolute bottom-2 left-1/2 z-20 flex -translate-x-1/2 items-center gap-1">
-                {[4, 1, 2, 3, 0].map((image) => (
+                {[0, 1, 2, 3, 4].map((image) => (
                   <button
                     key={image}
                     type="button"
