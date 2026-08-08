@@ -24,7 +24,7 @@ const Projects = forwardRef(({ id }, ref) => {
                 loading="lazy"
               />
 
-              <div className="pointer-events-none absolute inset-0 bg-lght-blk/80 d:hidden" />
+              <div className="pointer-events-none absolute inset-0 bg-black/70 d:hidden" />
             </div>
 
             <div className="relative z-10 flex min-h-[32rem] flex-col justify-center p-6 d:block d:min-h-0 d:p-0 d:col-start-1 d:col-span-7 d:row-start-1">
@@ -80,18 +80,18 @@ const Projects = forwardRef(({ id }, ref) => {
             </div>
           </article>
 
-          <article className="relative grid min-h-[32rem] grid-cols-1 items-center overflow-hidden rounded-lg border shadow-shdw-lg d:min-h-0 d:grid-cols-12 d:overflow-visible d:rounded-none d:border-0 d:shadow-none">
-            <div className="absolute inset-0 h-fit overflow-hidden d:relative d:inset-auto d:h-[20rem] d:rounded-lg d:border d:shadow-shdw-lg d:col-start-1 d:col-span-7 d:row-start-1">
+          <article className="relative grid h-fit t:min-h-[32rem] grid-cols-1 items-center overflow-hidden rounded-lg border shadow-shdw-lg d:min-h-0 d:grid-cols-12 d:overflow-visible d:rounded-none d:border-0 d:shadow-none">
+            <div className="absolute inset-0 h-full overflow-hidden d:relative d:inset-auto d:h-[20rem] d:rounded-lg d:border d:shadow-shdw-lg d:col-start-1 d:col-span-7 d:row-start-1">
               <img
                 src="./projects/projecttwo.png"
                 alt="LilPrinties e-commerce administration dashboard"
-                className="w-full h-full"
+                className="w-full h-full object-cover object-left d:object-none"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-lght-blk/80 d:hidden pointer-events-none" />
+              <div className="absolute inset-0 bg-black/70 d:hidden pointer-events-none" />
             </div>
 
-            <div className="relative z-10 flex min-h-[32rem] flex-col justify-center p-6 d:block d:min-h-0 d:p-0 d:text-right d:col-start-6 d:col-span-7 d:row-start-1">
+            <div className="relative z-10 flex h-fit flex-col justify-center p-6 d:block d:min-h-0 d:p-0 d:text-right d:col-start-6 d:col-span-7 d:row-start-1">
               <h3 className="text-3xl font-extrabold text-white d:text-lght-blk mb-5">
                 Prime Casuals Dashboard
               </h3>
@@ -144,7 +144,7 @@ const Projects = forwardRef(({ id }, ref) => {
                 className="animate-image block h-full w-full object-cover object-top d:h-auto"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-lght-blk/80 d:hidden pointer-events-none" />
+              <div className="absolute inset-0 bg-black/70 d:hidden pointer-events-none" />
             </div>
 
             <div className="relative z-10 flex min-h-[32rem] flex-col justify-center p-6 d:block d:min-h-0 d:p-0 d:col-start-1 d:col-span-7 d:row-start-1">
@@ -181,12 +181,12 @@ const Projects = forwardRef(({ id }, ref) => {
             </div>
           </article>
 
-          <article className="relative grid min-h-[32rem] grid-cols-1 items-center overflow-hidden rounded-lg border shadow-shdw-lg d:min-h-0 d:grid-cols-12 d:overflow-visible d:rounded-none d:border-0 d:shadow-none">
+          <article className="relative grid h-fit t:min-h-[32rem] grid-cols-1 items-center overflow-hidden rounded-lg border shadow-shdw-lg d:min-h-0 d:grid-cols-12 d:overflow-visible d:rounded-none d:border-0 d:shadow-none">
             <div className="project-image absolute inset-0 h-full overflow-hidden d:relative d:inset-auto d:col-start-1 d:col-span-7 d:row-start-1 d:h-[20rem] d:rounded-lg d:border d:shadow-shdw-lg">
               <img
                 src={`/projects/projectfour/${projectFourImage + 1}.png`}
                 alt={`AI CodeLens dashboard screenshot ${projectFourImage + 1} of 5`}
-                className="block h-full w-full"
+                className="block h-full w-full object-cover object-left d:object-none"
                 loading="lazy"
               />
               <div className="absolute bottom-2 left-1/2 z-20 flex -translate-x-1/2 items-center gap-1">
@@ -207,10 +207,10 @@ const Projects = forwardRef(({ id }, ref) => {
                   </button>
                 ))}
               </div>
-              <div className="pointer-events-none absolute inset-0 bg-lght-blk/80 d:hidden" />
+              <div className="pointer-events-none absolute inset-0 bg-black/70 d:hidden" />
             </div>
 
-            <div className="pointer-events-none relative z-10 flex min-h-[32rem] flex-col justify-center p-6 d:pointer-events-auto d:block d:min-h-0 d:p-0 d:text-right d:col-start-6 d:col-span-7 d:row-start-1">
+            <div className="pointer-events-none relative z-10 flex h-fit flex-col justify-center p-6 d:pointer-events-auto d:block d:min-h-0 d:p-0 d:text-right d:col-start-6 d:col-span-7 d:row-start-1">
               <h3 className="mb-5 text-3xl font-extrabold text-white d:text-lght-blk">
                 AI CodeLens
               </h3>
