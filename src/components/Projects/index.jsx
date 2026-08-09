@@ -139,6 +139,58 @@ const Projects = forwardRef(({ id }, ref) => {
           <article className="relative grid min-h-[32rem] grid-cols-1 items-center overflow-hidden rounded-lg border shadow-shdw-lg d:min-h-0 d:grid-cols-12 d:overflow-visible d:rounded-none d:border-0 d:shadow-none">
             <div className="project-image absolute inset-0 h-full overflow-hidden d:relative d:inset-auto d:col-span-7 d:col-start-6 d:row-start-1 d:h-[20rem] d:rounded-lg d:border d:shadow-shdw-lg">
               <img
+                src="./projects/projectfive.png"
+                alt="Prime Casuals fashion storefront"
+                className="animate-image block h-full w-full object-cover object-top d:h-auto"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-black/70 d:hidden pointer-events-none" />
+            </div>
+
+            <div className="relative z-10 flex min-h-[32rem] flex-col justify-center p-6 d:block d:min-h-0 d:p-0 d:col-start-1 d:col-span-7 d:row-start-1">
+              <h3 className="text-3xl font-extrabold text-white d:text-lght-blk mb-5">
+                Himmel Store
+              </h3>
+              <p className="bg-transparent border-0 p-0 text-base text-white shadow-none d:bg-gry d:border d:rounded-lg d:p-5 d:text-lg d:text-lght-blk d:shadow-shdw-lg">
+                A responsive e-commerce shop for a fragrance brand, featuring a custom storefront.
+              </p>
+              <div className="flex flex-wrap gap-x-6 gap-y-2 mt-5 font-bold">
+                <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+                  <StackIcon name="wordpress" className="w-8" />
+                </a>
+
+                <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+                  <StackIcon name="woocommerce" className="w-8" />
+                </a>
+
+                <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+                  <StackIcon name="php" className="w-8" />
+                </a>
+
+                <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+                  <StackIcon name="css3" className="w-8" />
+                </a>
+              </div>
+              <div className="flex flex-wrap gap-x-2 gap-y-2 mt-5 font-bold">
+                <span className="text-white d:text-lght-blk">E-commerce</span>
+                <span className="text-white d:text-lght-blk">|</span>
+                <span className="text-white d:text-lght-blk">Responsive UI</span>
+              </div>
+              <a
+                href="https://aymanouhandida.github.io/"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex w-fit items-center gap-2 mt-5 font-extrabold text-white d:text-lght-blk hover:text-blue transition-colors"
+                aria-label="Visit Prime Casuals live site in a new tab"
+              >
+                <ExternalLink size={24} className="text-white d:text-lght-blk" aria-hidden="true" />
+              </a>
+            </div>
+          </article>
+
+          <article className="relative grid min-h-[32rem] grid-cols-1 items-center overflow-hidden rounded-lg border shadow-shdw-lg d:min-h-0 d:grid-cols-12 d:overflow-visible d:rounded-none d:border-0 d:shadow-none">
+            <div className="project-image absolute inset-0 h-full overflow-hidden d:relative d:inset-auto d:col-span-7 d:col-start-6 d:row-start-1 d:h-[20rem] d:rounded-lg d:border d:shadow-shdw-lg">
+              <img
                 src="./projects/projecthree.png"
                 alt="Prime Casuals fashion storefront"
                 className="animate-image block h-full w-full object-cover object-top d:h-auto"
