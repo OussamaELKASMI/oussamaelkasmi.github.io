@@ -155,19 +155,23 @@ const Projects = forwardRef(({ id }, ref) => {
                 A responsive e-commerce shop for a fragrance brand, featuring a custom storefront.
               </p>
               <div className="flex flex-wrap gap-x-6 gap-y-2 mt-5 font-bold">
-                <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+                <a href="https://wordpress.org/" target="_blank" rel="noreferrer">
                   <StackIcon name="wordpress" className="w-8" />
                 </a>
 
-                <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+                <a href="https://woocommerce.com/" target="_blank" rel="noreferrer">
                   <StackIcon name="woocommerce" className="w-8" />
                 </a>
 
-                <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+                <a href="https://www.php.net/" target="_blank" rel="noreferrer">
                   <StackIcon name="php" className="w-8" />
                 </a>
 
-                <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <StackIcon name="css3" className="w-8" />
                 </a>
               </div>
