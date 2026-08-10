@@ -18,7 +18,7 @@ const Projects = forwardRef(({ id }, ref) => {
           <article className="relative grid min-h-[32rem] grid-cols-1 items-center overflow-hidden rounded-lg border shadow-shdw-lg d:min-h-0 d:grid-cols-12 d:overflow-visible d:rounded-none d:border-0 d:shadow-none">
             <div className="project-image absolute inset-0 h-full overflow-hidden d:relative d:inset-auto d:col-span-7 d:col-start-6 d:row-start-1 d:h-[20rem] d:rounded-lg d:border d:shadow-shdw-lg">
               <img
-                src="/projects/projectone.png"
+                src="/projects/projectone.webp"
                 alt="Prime Casuals fashion storefront"
                 className="animate-image block h-full w-full object-cover object-top d:h-auto"
                 loading="lazy"
@@ -83,7 +83,7 @@ const Projects = forwardRef(({ id }, ref) => {
           <article className="relative grid h-fit t:min-h-[32rem] grid-cols-1 items-center overflow-hidden rounded-lg border shadow-shdw-lg d:min-h-0 d:grid-cols-12 d:overflow-visible d:rounded-none d:border-0 d:shadow-none">
             <div className="absolute inset-0 h-full overflow-hidden d:relative d:inset-auto d:h-[20rem] d:rounded-lg d:border d:shadow-shdw-lg d:col-start-1 d:col-span-7 d:row-start-1">
               <img
-                src="./projects/projecttwo.png"
+                src="./projects/projecttwo.webp"
                 alt="LilPrinties e-commerce administration dashboard"
                 className="w-full h-full object-cover object-left d:object-fill"
                 loading="lazy"
@@ -139,7 +139,7 @@ const Projects = forwardRef(({ id }, ref) => {
           <article className="relative grid min-h-[32rem] grid-cols-1 items-center overflow-hidden rounded-lg border shadow-shdw-lg d:min-h-0 d:grid-cols-12 d:overflow-visible d:rounded-none d:border-0 d:shadow-none">
             <div className="project-image absolute inset-0 h-full overflow-hidden d:relative d:inset-auto d:col-span-7 d:col-start-6 d:row-start-1 d:h-[20rem] d:rounded-lg d:border d:shadow-shdw-lg">
               <img
-                src="./projects/projectfive.png"
+                src="./projects/projectfive.webp"
                 alt="Prime Casuals fashion storefront"
                 className="animate-image block h-full w-full object-cover object-top d:h-auto"
                 loading="lazy"
@@ -195,7 +195,7 @@ const Projects = forwardRef(({ id }, ref) => {
           <article className="relative grid min-h-[32rem] grid-cols-1 items-center overflow-hidden rounded-lg border shadow-shdw-lg d:min-h-0 d:grid-cols-12 d:overflow-visible d:rounded-none d:border-0 d:shadow-none">
             <div className="project-image absolute inset-0 h-full overflow-hidden d:relative d:inset-auto d:col-span-7 d:col-start-6 d:row-start-1 d:h-[20rem] d:rounded-lg d:border d:shadow-shdw-lg">
               <img
-                src="./projects/projecthree.png"
+                src="./projects/projecthree.webp"
                 alt="Prime Casuals fashion storefront"
                 className="animate-image block h-full w-full object-cover object-top d:h-auto"
                 loading="lazy"
@@ -240,7 +240,7 @@ const Projects = forwardRef(({ id }, ref) => {
           <article className="relative grid h-fit t:min-h-[32rem] grid-cols-1 items-center overflow-hidden rounded-lg border shadow-shdw-lg d:min-h-0 d:grid-cols-12 d:overflow-visible d:rounded-none d:border-0 d:shadow-none">
             <div className="project-image absolute inset-0 h-full overflow-hidden d:relative d:inset-auto d:col-start-1 d:col-span-7 d:row-start-1 d:h-[20rem] d:rounded-lg d:border d:shadow-shdw-lg">
               <img
-                src={`/projects/projectfour/${projectFourImage + 1}.png`}
+                src={`/projects/projectfour/${projectFourImage + 1}.webp`}
                 alt={`AI CodeLens dashboard screenshot ${projectFourImage + 1} of 5`}
                 className="block h-full w-full object-cover object-left d:object-fill"
                 loading="lazy"
