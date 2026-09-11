@@ -80,8 +80,8 @@ const Projects = forwardRef(({ id }, ref) => {
                 aria-label="Visit Prime Casuals live site in a new tab"
               >
                 <ExternalLink size={24} className="text-white d:text-lght-blk" aria-hidden="true" />
-              </a>
-            </div> */}
+              </a> */}
+            </div>
           </article>
 
           <article className="relative grid h-fit t:min-h-[32rem] grid-cols-1 items-center overflow-hidden rounded-lg border shadow-shdw-lg d:min-h-0 d:grid-cols-12 d:overflow-visible d:rounded-none d:border-0 d:shadow-none">
