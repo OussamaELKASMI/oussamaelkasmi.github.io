@@ -68,7 +68,11 @@ const Projects = forwardRef(({ id }, ref) => {
                 <span className="text-white d:text-lght-blk">|</span>
                 <span className="text-white d:text-lght-blk">Payments</span>
               </div>
-              <a
+               <span className="mt-5 inline-flex w-fit items-center gap-2 font-extrabold text-white d:ml-auto d:text-lght-blk">
+                <LockKeyhole size={19} className="text-white d:text-lght-blk" aria-hidden="true" />
+                Private Project
+              </span>
+              {/* <a
                 href="https://primecasuals.com"
                 target="_blank"
                 rel="noreferrer"
@@ -77,7 +81,7 @@ const Projects = forwardRef(({ id }, ref) => {
               >
                 <ExternalLink size={24} className="text-white d:text-lght-blk" aria-hidden="true" />
               </a>
-            </div>
+            </div> */}
           </article>
 
           <article className="relative grid h-fit t:min-h-[32rem] grid-cols-1 items-center overflow-hidden rounded-lg border shadow-shdw-lg d:min-h-0 d:grid-cols-12 d:overflow-visible d:rounded-none d:border-0 d:shadow-none">
@@ -180,7 +184,11 @@ const Projects = forwardRef(({ id }, ref) => {
                 <span className="text-white d:text-lght-blk">|</span>
                 <span className="text-white d:text-lght-blk">Responsive UI</span>
               </div>
-              <a
+               <span className="mt-5 inline-flex w-fit items-center gap-2 font-extrabold text-white d:ml-auto d:text-lght-blk">
+                <LockKeyhole size={19} className="text-white d:text-lght-blk" aria-hidden="true" />
+                Private Project
+              </span>
+              {/* <a
                 href="https://aymanouhandida.github.io/"
                 target="_blank"
                 rel="noreferrer"
@@ -188,7 +196,7 @@ const Projects = forwardRef(({ id }, ref) => {
                 aria-label="Visit Prime Casuals live site in a new tab"
               >
                 <ExternalLink size={24} className="text-white d:text-lght-blk" aria-hidden="true" />
-              </a>
+              </a> */}
             </div>
           </article>
 
